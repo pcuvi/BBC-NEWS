@@ -10,99 +10,147 @@
 </head>
 
 <body>
-  <!-- addding a comment -->
-
-  <!-- topBar -->
-  <div id="topBar">
-    <div class="nav-container">
-      <img id="logo" src="resources/img/bbcLogo.png">
+  <div id="topBar" class="top-banner">
+      <div class="nav-container">
+        <div class="logo-box">
+            <img id="logo" src="resources/img/bbcLogo.png">
+        </div>
+        <div id="Log-in-container" class="SignIn-box">
+            <img id="nav-signIn" class="sign-In-img" src="resources/img/signIn.png" alt="Sign In">
+        </div>
+        <div class="nav-section-container">
+          <ul class="nav-section">
+                    <li class="top-navigation" id="top-navigation1">
+                    <a href="https://www.bbc.com/news">News</a>
+                    </li>
+                    <li class="top-navigation" id="top-navigation2">
+                    <a href="https://www.bbc.com/sport">Sport</a>
+                    </li>
+                    <li class="top-navigation" id="top-navigation3" >
+                    <a href="https://www.bbc.com/reel/">Reel</a>
+                    </li>
+                    <li class="top-navigation" id="top-navigation4">
+                    <a href="https://www.bbc.com/worklife/?referer=https%3A%2F%2Fwww.bbc.com%2Fnews%2Ftechnology-35350789">Worklife</a>
+                    </li>
+                    <li class="top-navigation" id="top-navigation5">
+                    <a href="http://www.bbc.com/travel">Travel</a>
+                    </li>
+                    <li class="top-navigation" id="top-navigation6">
+                    <a href="https://www.bbc.com/future/?referer=https%3A%2F%2Fwww.bbc.com%2Fnews%2Ftechnology-35350789">Future</a>
+                    </li>
+                    <li class="top-navigation" id="top-navigation7">
+                      <a href="https://www.bbc.com/news/technology-35350789#orb-footer">More</a>
+                    </li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <img src="resources/img/search.png" alt="search" class="search-img">
+        </div>
+      </div>
+  </div>
+  <div class="news-stripe">
+    <div class="news-container">
+      <span>NEWS</span>
     </div>
-    <div id="Log-in-container">
-      <img src="resources/img/signIn.png" alt="sign In" class="sign-In-img">
-    </div>
-    <div id="nav-list">
-      <ul class="nav-section">
+  </div>
+<div class="bottom-red-stripe">
+  <div id="nav-wide-list" class="second-navigation">
+      <ul class="navigation-wide-list">
         <li>
-          <a href="https://www.bbc.com/news">News</a>
+          <a href="https://www.bbc.com/news" class="navigation-wide-list_Link"><span>Home</span></a>
         </li>
         <li>
-          <a href="https://www.bbc.com/sport">Sport</a>
+          <a href="https://www.bbc.com/news/video_and_audio/headlines/51440449/a-quick-look-at-the-looks-on-the-academy-awards-red-carpet" class="navigation-wide-list_Link">Video</a>
         </li>
         <li>
-          <a href="https://www.bbc.com/reel/">Reel</a>
+          <a href="https://www.bbc.com/news/world/"  class="navigation-wide-list_Link">World</a>
         </li>
         <li>
-          <a href="https://www.bbc.com/worklife/?referer=https%3A%2F%2Fwww.bbc.com%2Fnews%2Ftechnology-35350789">Worklife</a>
+          <a href="https://www.bbc.com/news/world/us_and_canada" class="navigation-wide-list_Link">US & Canada</a>
         </li>
         <li>
-          <a href="http://www.bbc.com/travel">Travel</a>
+          <a href="https://www.bbc.com/news/uk" class="navigation-wide-list_Link">UK</a>
         </li>
         <li>
-          <a href="https://www.bbc.com/future/?referer=https%3A%2F%2Fwww.bbc.com%2Fnews%2Ftechnology-35350789">Future</a>
+          <a href="https://www.bbc.com/news/business" class="navigation-wide-list_Link">Business</a>
         </li>
         <li>
-            <a href="https://www.bbc.com/news/technology-35350789#orb-footer">More</a>
+          <a href="https://www.bbc.com/news/technology" class="navigation-wide-list_Link">Tech</a>
+        </li>
+        <li>
+          <a href="https://www.bbc.com/news/science_and_environment" class="navigation-wide-list_Link">Science</a>
+        </li>
+        <li>
+          <a href="https://www.bbc.com/news/stories" class="navigation-wide-list_Link">Stories</a>
+        </li>
+        <li>
+          <a href="" class="navigation-wide-list_Link">More</a>
         </li>
       </ul>
+  </div>
+</div>
+
+  <!-- topBar -->
+<!-- .................................................. -->
+  <div class="index-tittle-container">
+      <span class="index-title">
+        <a href="https://www.bbc.com/news/technology">Technology</a>
+      </span>
+  </div>
+<div class="content-container">
+  <div class="primary-column">
+      <div class="tittle-container">
+        <h1 class="story-title">Asda bug exposed online shopping<br>payment details</h1>
+      </div>
+    <div class="author-profesion">
+      <span class="reporter">By Jane Wakefield <br> Technology reporter</span>
     </div>
-    <div class="search-container">
-      <img src="resources/img/search.png" alt="search" class="search-img">
+    <div class="mini-info">
+      <img class="mini-clock" src="resources/img/clock.png" alt="clock">
+      <span id="todays-date"></span>
+      <span class="list-social"></span>
+    </div>
+    <div class="story-img">
+      <img src="resources/img/asd-img.jpg" alt="">
+    </div>
+    <div class="story-body__introduction">
+      <h3>A flaw on supermarket Asda's website gave hackers the chance to collect customers' personal information and payment details, the BBC has learned.</h3>
+      <p>The US-owned retail firm, which processes hundreds of thousands of online orders each week, could have put millions of transactions at risk, security expert Paul Moore estimates.
+          <br>He first noticed the issue in March 2014 and contacted Asda to report it.
+          <br>Asda said it had now fixed the problem and no customers had been affected.
+          <br>The firm, whose website is run by US retail giant Walmart, told the BBC: "Asda and Walmart take the security of our websites very seriously. We are aware of the issue and have implemented changes to improve the security on our website."
+          <br>"The points flagged pose a low risk to customers and our monitoring of these security issues indicate that no customer information has been compromised over that two-year period."</p>
     </div>
   </div>
-
-
-
-      <div class="navigation-primary">NEWS
+  <div class="secondary-column">
+    <div class="top-stories-column">
+      <div class="top-stories-tittle">
+        <h1>Top Stories</h1>
       </div>
-  <div class="narrow-band"></div>
-  <div class="container">
-        <div id="nav-wide-list">
-          <ul>
-            <li>
-              <a href="https://www.bbc.com/news">Home</a>
-            </li>
-            <li>
-              <a href="https://www.bbc.com/news/video_and_audio/headlines/51440449/a-quick-look-at-the-looks-on-the-academy-awards-red-carpet">Video</a>
-            </li>
-            <li>
-              <a href="https://www.bbc.com/news/world/">World</a>
-            </li>
-            <li>
-              <a href="https://www.bbc.com/news/world/us_and_canada">US & Canada</a>
-            </li>
-            <li>
-              <a href="https://www.bbc.com/news/uk">UK</a>
-            </li>
-            <li>
-              <a href="https://www.bbc.com/news/business">Business</a>
-            </li>
-            <li>
-                <a href="https://www.bbc.com/news/technology">Tech</a>
-            </li>
-            <li>
-                <a href="https://www.bbc.com/news/science_and_environment">Science</a>
-            </li>
-          </ul>
-        </div>
-        <div class="index-container"><span class="index-title">
-            <a href="https://www.bbc.com/news/technology">Technology</a>
-          </span></div <div class="column-primary">
-        <h1 class="story-title">Asda bug exposed online shopping payment details</h1>
+      <div class="top-stories-paragraph">
+        <h2>Pete Buttigieg drops out of White House race</h2>
+          <p>The 38-year-old became the first openly gay major-party presidential candidate last year.</p>
+        <span>3 hours ago</span>
       </div>
-          <div>
-            <span class="reporter">By Jane Wakefield <br> Technology reporter</span>
-          </div>
-          <div class="mini-info">
-          <img class="mini-clock" src="resources/img/clock.png" alt="clock">
-          <span id="todays-date"></span>
-          <span class="list-social"></span>
-        </div>
-          <!-- body -->
-     <div class="story-img">
-        <img src="resources/img/asd-img.jpg" alt="">
+      <div class="">
+        <h2>What California voters want from this election</h2>
+        <span>5 hours ago</span>
+      </div>
+      <div class="">
+        <h2>Number killed by coronavirus exceeds 3,000</h2>
+        <span>2 minutes ago</span>
+      </div>
+    </div>
+      <div class="feature-stories-tittle">
+        <h1>Features</h1>
+          <img src="resources/img/feature-image1.jpg" alt="Feature Image 1">
+        <h3>Winners and losers in South Carolina vote</h3>
+        <img src="resources/img/feature-image2.jpg" alt="Feature Image 2">
+        <h3>The Arctic honeymoon that led to an unexpected reunion</h3>
       </div>
   </div>
-      <script src="resources/js/main.js"></script>
+</div>
+  <script src="resources/js/main.js"></script>
 </body>
 
 </html>

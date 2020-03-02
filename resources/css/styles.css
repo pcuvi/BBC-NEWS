@@ -1,9 +1,8 @@
 body {
-  margin: 0 auto;
-  width: 1100px;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
-
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+    margin: auto;
+    padding: 0px;
+    background: rgb(255, 255, 255);
 }
 
 
@@ -13,117 +12,225 @@ body {
   border: 1px solid red;
 } */
 /* //......................Top Bar......................... */
-#topBar {
-  display: flex;
-  width: 1100px;
-  margin: 0 auto;
-  height: 40px;
+.top-banner {
+    margin: auto;
+    width: 100vw;
+    height: 45px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 1px;
 }
-.nav-container{
-  padding: 20px 0;
-  height: 40px;
-  flex-grow: 1;
+.nav-container {
+    display: flex;
+    width: 1120px;
+    height: 45px;
+    margin: auto;
+}
+.logo-box {
+    width: 110px;
+    margin: 7px 1px 0px 0px;
+    padding: 0 9px 0 15px;
 }
 #logo{
-  top:10px;
-  bottom:0;
-  left:0;
-  right:0;
-  /* border-right: 1px grey solid; */
+    width: 110px;
 }
-#Log-in-container{
-  padding: 18px 0 18px 18px;
-  height: 40px;
-  flex-grow: 1;
+.SignIn-box {
+    border-left: 1px solid #ccc;
 }
-img.sign-In-img{
-  width: 165px;
+#nav-signIn:hover{
+  border-bottom: 4px solid #00b8e6;
 }
-#nav-list{
-  flex-grow: 4;
+#nav-signIn {
+    width: 200px;
+    padding-top: 5px;
+}
+#top-navigation1:hover{
+    border-bottom: 4px solid red;
+}
+#top-navigation2:hover{
+    border-bottom: 4px solid yellow;
+}
+#top-navigation3:hover{
+    border-bottom: 4px solid blue;
+}
+#top-navigation4:hover{
+    border-bottom: 4px solid #000080;
+}
+#top-navigation5:hover{
+    border-bottom: 4px solid #008000;
+}
+#top-navigation6:hover{
+    border-bottom: 4px solid #0000b3;
+}
+#top-navigation7:hover{
+    border-bottom: 4px solid #000066;
+}
 
+.news-stripe {
+    margin: auto;
+    background-color: #bb1818;
+    width: 100vw;
+    height: 80px;
 }
+
 .nav-section{
-  padding: 0;
+      margin: 0;
+      padding: 0;
 }
 ul {
   display: flex;
   list-style-type: none;
-  height: 40px;
+  padding: 0;
 }
-/* giveli a class */
-li{
-  display: inline;
-  border-left: 1px solid #ccc;
-  text-align: center;
-  padding: 10px 20px 0 20px;
+.top-navigation {
+    display: inline;
+    text-align: center;
+    border-left: 1px solid rgb(204, 204, 204);
+    padding: 0px 15px;
+    height: 45px;
 }
 li a{
-  text-decoration: none;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: #333;
 }
 .search-container{
-  flex-grow: 4;
+
 }
 img.search-img{
 width: 230px;
-padding-top: 10px;
+padding: 4px 6px;
+border-left: 1px solid rgb(204, 204, 204);
 }
-/*.....................navigation-primary......... */
-.navigation-primary{
-  position:absolute;
-  top:60px;
-  bottom:0;
-  left:0;
-  right:0;
-  margin: 0 auto;
-  background-color: #bb1919;
-  height: 60px;
-  width: 1000vw
+/*.....................SECOND NAVIGATION......... */
+.news-container {
+  width: 1120px;
+  padding: 10px 0 0 15px;
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  font-size: 60px;
+  color: white;
+  margin: auto;
 }
-/* ..................navigation List............ */
-.narrow-band{
-  position:absolute;
-  top:120px;
-  bottom:0;
-  left:0;
-  right:0;
-  margin: 0 auto;
-  width: 1000vw;
-  height: 40px;
+.bottom-red-stripe{
+  height: 50px;
   background-color: #a91717;
+  border-top: 1px solid #a91717;
 }
+.second-navigation{
+  margin: auto;
+  width: 1120px;
+  font-size: 18px;
+}
+.navigation-wide-list_Link{
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 25px 4px 25px;;
+  text-decoration: none;
+  line-height: 0.5em;
+  border-right: 1px solid #bb4545;
+  position: relative;
+    left: -13px;
+}
+
+
+/* .................INDEX-TITTLE-CONTAINER............. */
+.index-tittle-container{
+    width: 1120px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 2em;
+    padding-left: 15px;
+}
+.index-tittle-container a{
+  text-decoration: none;
+  color: #222;
+  padding-bottom: 4px;
+  border-bottom: 4px solid #ff0404;
+}
+
 /* ....................body-container............. */
-div.container{
-  position:absolute;
-  top:110px;
-  bottom:0;
-  left:0;
-  right:0;
+.content-container{
+  display: flex;
+  width: 1120px;
   margin: 0 auto;
-  width: 1100px;
+  padding: 0 15px;
 }
-
-div.nav-wide-list{
-  height: 100px;
-  background-color: blue;
+.column-primary{
+  width: 710px;
+  margin: 0;
+  font-size: 1.3rem;
 }
-/* ..................index container............. */
-.index-container{
-  height: 35px;
-  padding: 16px;
-
+.author-profesion{
+  font-size: 1.2em;
+  color: #404040;
+  margin: 16px 0;
 }
-.index-title{
 
 }
 /* ..................mini info................... */
 
 .mini-info{
-  padding: 20px 0 0 40px;
-  height: 40px;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  margin: 20px;
+  /* width: 100px;
+  height: 44px;
+  margin-top: 16px;
+  line-height: 2.5em;
+  background-color: red; */
 }
 .mini-clock{
   vertical-align:middle;
   padding-right: 10px;
   height: 25px;
+}
+/* .........BODY INTODUCTION............. */
+.story-body__introduction h3{
+  font-size: 22px;
+}
+.story-body__introduction p{
+  font-size: 20px;
+  line-height: 2;
+  color: #666666;
+}
+
+/* .........................SECONDARY COLUMN................ */
+.secondary-column{
+  width: 100vw;
+  height: 840px;
+  margin-left: 25px;
+}
+.secondary-column h1{
+  color: #666666;
+}
+.top-stories-column{
+  width: auto;
+  height: 500px;
+  background-color: #ededed;
+  padding: 20px 10px 20px 35px;
+}
+.top-stories-paragraph h2{
+  font-size: 22px;
+}
+.top-stories-paragraph p{
+  font-size: 20px;
+  color: #666666;
+}
+/* ........Features.......... */
+.feature-stories-tittle{
+  width: auto;
+  height: 600px;
+  background-color: #ededed;
+  margin-top: 35px;
+  padding: 20px 10px 20px 35px;
+}
+.feature-stories-tittle img{
+  width: 330px;
+}
+.feature-stories-tittle h3{
+  color: #666666;
 }
