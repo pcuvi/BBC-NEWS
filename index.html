@@ -105,13 +105,41 @@
     <div class="author-profesion">
       <span class="reporter">By Jane Wakefield <br> Technology reporter</span>
     </div>
-    <div class="mini-info">
-      <img class="mini-clock" src="resources/img/clock.png" alt="clock">
-      <span id="todays-date"></span>
-      <span class="list-social"></span>
+    <div id="mini-info">
+      <div class="date-container">
+        <img class="mini-clock" src="resources/img/clock.png" alt="clock">
+        <span id="todays-date" class="date-contaner"></span>
+
+        <div class="social-media-list">
+          <div class="social-media-box-1">
+            <svg class="extracted-svg ex-facebook" viewBox="-17 -13 44 44" enable-background="new 0 0 44 44" width="55px" height="55px" aria-hidden="true" focusable="false">
+                    <g><path d="M5.73,17 L5.73,9.246 L8.333,9.246 L8.723,6.223 L5.73,6.223 L5.73,4.294 C5.73,3.419 5.973,2.823 7.228,2.823 L8.828,2.822 L8.828,0.119 C8.551,0.082 7.601,0 6.496,0 C4.189,0 2.609,1.408 2.609,3.995 L2.609,6.223 L0,6.223 L0,9.246 L2.609,9.246 L2.609,17 L5.73,17 Z"></path></g>
+            </svg>
+          </div>
+          <div class="social-media-box-2">
+            <svg class="extracted-svg ex-messengerdesktop" viewBox="-14 -13 44 44" enable-background="new 0 0 44 44" width="55px" height="55px" aria-hidden="true" focusable="false">
+                    <g><path d="M9.84804801,11.1721834 L7.54389655,8.77893955 L3.1059828,11.2323207 L7.97153994,6.06941781 L10.2756914,8.46377529 L14.7136051,6.00928046 L9.84804801,11.1721834 Z M8.90923715,0 C3.98911093,0 0,3.73074306 0,8.33125039 C0,10.9494525 1.29183939,13.2847862 3.3097816,14.8116068 L3.3097816,18 L6.35117243,16.3139269 C7.16079936,16.5399988 8.02054074,16.6625008 8.90923715,16.6625008 C13.830477,16.6625008 17.8184743,12.9328714 17.8184743,8.33125039 C17.8184743,3.73074306 13.830477,0 8.90923715,0 L8.90923715,0 Z"></path></g>
+            </svg>
+          </div>
+          <div class="social-media-box-3">
+            <svg class="extracted-svg ex-twitter" viewBox="-13 -15 44 44" enable-background="new 0 0 44 44" width="55px" height="55px" aria-hidden="true" focusable="false">
+                    <g><path d="M5.80573373,15 C12.7721527,15 16.581877,9.22887915 16.581877,4.22385671 C16.581877,4.06002242 16.581877,3.89618812 16.5714931,3.73466135 C17.3122088,3.19816171 17.9525471,2.53359441 18.4602026,1.77326482 C17.7690988,2.08016568 17.0364595,2.28092039 16.28536,2.36976011 C17.0756874,1.89671742 17.6675677,1.15138674 17.9502395,0.274527115 C17.2072164,0.715264453 16.3938137,1.02678037 15.5457981,1.19407596 C14.1105174,-0.331198284 11.7118448,-0.405039095 10.1865706,1.0290879 C9.20241101,1.95440555 8.78590269,3.33315194 9.09049603,4.64844138 C6.04571636,4.4961447 3.20861397,3.05740266 1.28529161,0.691035437 C0.280364327,2.42167943 0.793788713,4.63574999 2.45751448,5.74682343 C1.85525036,5.72951699 1.26567764,5.56683646 0.738408105,5.27262698 L0.738408105,5.32108501 C0.739561868,7.12441605 2.00985456,8.67622684 3.77741896,9.03389326 C3.2201516,9.18618993 2.63519393,9.20811142 2.06754269,9.09850397 C2.56366064,10.6410847 3.98509624,11.6979313 5.60613279,11.7290828 C4.26430681,12.7824682 2.60750362,13.3547344 0.902242404,13.3535807 C0.601110348,13.3524269 0.299978293,13.3339667 7.10542736e-15,13.2982001 C1.73295152,14.4104273 3.74742113,15 5.80573373,14.9965387"></path></g>
+            </svg>
+          </div>
+          <div class="social-media-box-4">
+            <svg class="extracted-svg ex-email" viewBox="-7 1 27 9" enable-background="new 0 0 44 44" width="55px" height="55px" aria-hidden="true" focusable="false">
+                    <g><path d="M11,4.9V9H2V2.1l4.6,5L13.1,0H0.2H0v11h13V2.8L11,4.9z M10.2,2L6.7,5.8L3.2,2H10.2z"></path></g>
+            </svg>
+          </div>
+          <div class="social-media-box-5">
+            <svg class="twite__share-icon ex-share" width="20px" aria-hidden="true" focusable="false" viewBox="0 0 29.266 32"><path d="M5.473 22.153c1.586 0 3.01-.684 4.012-1.762l9 4.845c-.102.412-.16.85-.16 1.297 0 3.02 2.452 5.468 5.472 5.468 3.017 0 5.47-2.446 5.47-5.468 0-3.023-2.453-5.47-5.47-5.47-1.587 0-3.02.68-4.015 1.757l-9.457-5.175-.074-2.792 9.74-5.456c.99.953 2.327 1.543 3.807 1.543 3.017 0 5.47-2.45 5.47-5.474 0-3.022-2.453-5.467-5.47-5.467-3.02 0-5.473 2.444-5.473 5.466 0 .554.08 1.09.243 1.597L9.27 12.75c-.988-.95-2.326-1.537-3.797-1.537C2.447 11.213 0 13.657 0 16.68c0 3.03 2.447 5.473 5.473 5.473"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="story-img">
-      <img src="resources/img/asd-img.jpg" alt="">
+      <!-- <img src="resources/img/asd-img.jpg" alt=""> -->
     </div>
     <div class="story-body__introduction">
       <h3>A flaw on supermarket Asda's website gave hackers the chance to collect customers' personal information and payment details, the BBC has learned.</h3>

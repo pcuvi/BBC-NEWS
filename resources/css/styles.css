@@ -62,7 +62,7 @@ body {
     border-bottom: 4px solid #008000;
 }
 #top-navigation6:hover{
-    border-bottom: 4px solid #0000b3;
+    border-bottom: 4px solid #000066;
 }
 #top-navigation7:hover{
     border-bottom: 4px solid #000066;
@@ -126,12 +126,15 @@ border-left: 1px solid rgb(204, 204, 204);
 .navigation-wide-list_Link{
   color: #fff;
   cursor: pointer;
-  padding: 10px 25px 4px 25px;;
+  padding: 10px 25px 7px 25px;;
   text-decoration: none;
   line-height: 0.5em;
   border-right: 1px solid #bb4545;
   position: relative;
-    left: -13px;
+  left: -13px;
+}
+.navigation-wide-list_Link:hover{
+  border-bottom: 5px solid white;
 }
 
 
@@ -172,22 +175,73 @@ border-left: 1px solid rgb(204, 204, 204);
 }
 /* ..................mini info................... */
 
-.mini-info{
-  background-color: red;
-  width: 10px;
+div#mini-info {
+}
+
+#mini-info{
   height: 10px;
-  margin: 20px;
-  /* width: 100px;
-  height: 44px;
-  margin-top: 16px;
-  line-height: 2.5em;
-  background-color: red; */
+  margin: 45px 0;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 38px;
 }
 .mini-clock{
   vertical-align:middle;
   padding-right: 10px;
   height: 25px;
 }
+.date-container{
+  display: flex;
+  width: 750px;
+}
+#todays-date{
+  padding-top: 6px;
+}
+/* .............Social Media.........*/
+div.social-media-list{
+  display: flex;
+  position: relative;
+  right: -332px;
+  bottom: 13px;
+  width: 300px;
+}
+.ex-facebook{
+  fill: #3b5998;
+}
+.ex-facebook:hover{
+  background-color: #3c5898;
+  fill: white;
+}
+.ex-messengerdesktop{
+  fill: #0084ff;
+}
+.ex-messengerdesktop:hover{
+  background-color: #0084ff;
+  fill: white;
+}
+.ex-twitter{
+  fill: #1da1f2;
+}
+.ex-twitter:hover{
+  background-color: #1da1f2;
+  fill: white;
+}
+.ex-email{
+  fill: #615f5d;
+}
+.ex-email:hover{
+  background-color: #615f5d;
+  fill: white;
+}
+.ex-share{
+  padding: 16px;
+  fill: #0b8a0b;
+}
+.ex-share:hover{
+  background-color: #615f5d;
+  fill: white;
+}
+
+
 /* .........BODY INTODUCTION............. */
 .story-body__introduction h3{
   font-size: 22px;
