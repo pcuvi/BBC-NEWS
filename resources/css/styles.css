@@ -287,10 +287,27 @@ div.social-media-list{
 .feature-stories-tittle h3{
   color: #666666;
 }
-@media only screen and (max-width: 1050px) {
+
+/* ..............................Responsive................................ */
+
+
+@media only screen and (max-width: 900px) {
   body {
     height: 100vh;
   }
+
+
+/* ................................ */
+.responsive {
+  width: 70%;
+  height: auto;
+}
+
+
+
+
+
+  /* ............................. */
   .top-stories-column{
     height: 50%;
   }
@@ -304,19 +321,62 @@ div.social-media-list{
     display: flex;
     height: 40%;
     margin-bottom: 30px;
+    font-size: .7em;
   }
-
+  .feature-stories-tittle h1{
+    padding-left: 25px;
+  }
   .feature-story-container-1{
     position: absolute;
     top: 600px;
-    left: 100px;
-    width: 350px;
+    left: 60px;
+    width: 250px;
   }
   .feature-story-container-2{
     position: absolute;
     top: 600px;
-    right: 80px;
-    width:350px;
+    right: 60px;
+    width: 250px;
   }
+  img.feature-image-1{
+    width: 100%;
+    height: auto;
+  }
+  img.feature-img-2{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 470px;
+  }
+  .feature-stories-tittle{
+    display: flex;
+    flex-direction:column;
+    padding: 0 30px 0 70px;
+    height: 500px;
+  }
+  .feature-story-container-1{
+    /* padding: 20px; */
+    position: absolute;
+    top: 570px;
+    left: 100px;
+
+  }
+  .feature-story-container-2{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+  }
+
+
+
+
+
+
+
+
 
 }
